@@ -1,0 +1,99 @@
+body {
+	background-color: #ffe8d6;
+	color: black;
+	font-family: Courier;
+}
+
+h1{
+	color: #774936;
+	font-family: Helvetica;
+	font-weight: 90;
+	letter-spacing: 2px;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+
+h2{
+	color: rgb(100,100,100);
+	font-family: Courier;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	color:#f9dcc4;
+}
+
+a:hover {
+	color: #f9dcc4;
+}
+
+
+
+.container {
+	width: 700px
+	margin:40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #f9dcc4;
+	margin: 40px 120px;
+	padding: 40px;
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.1);
+	border-radius: 15px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 90px;
+}
+
+.btn-orange {
+	background-color: rgb(100,100,100);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-orange:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(100,100,100);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
